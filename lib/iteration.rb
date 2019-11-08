@@ -9,7 +9,9 @@ def join_ingredients(src)
   
   new_array = []
   index = 0 
-  while index < src.length 
+  while index < src.length do 
+    new_array.push("I love #{src[index][1]")
+  end 
 end
 
 def find_greater_pair(src)
